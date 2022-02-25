@@ -1,0 +1,27 @@
+name: Build & Deploy LaTeX Document
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: resume.tex
+          latexmk_use_xelatex: true
+
+      - name: Setup Output Directory
+        run: |
+          mkdir output
+          mv resume.pdf output/
+
+      - name: Commit PDF to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: output
+          clean-exclude: |
+            .nojekyll
