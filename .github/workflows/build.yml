@@ -16,6 +16,7 @@ jobs:
       - name: Setup Output Directory
         run: |
           mkdir output
+          mv index.html output/
           mv resume.pdf output/
 
       - name: Commit PDF to gh-pages
