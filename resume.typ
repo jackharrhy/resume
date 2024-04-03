@@ -60,19 +60,19 @@
     - Entered the role with limited geospatial development expertise but quickly closed the knowledge gap by enrolling in relevant courses. Eventually, became proficient enough to make contributions back to the open-source tools used by our software.
     - Truly 'full-stack', from creating the frontend Vite React app, to writing the backend FastAPI-based Python server with the SQLAlchemy ORM, deploying to GCP Cloud Run with Docker Containers.
   ]
-
+  
   #experience(
     entity: "CoLab Software",
     entityLink: "https://www.colabsoftware.com/",
     role: "Full-Stack Software Developer",
     tools: "React, Python, SQLAlchemy, GraphQL",
-    when: "May 2020",
+    when: "May 2020 - Dec 2021",
   )[
     - Advocated for a more efficient review process, contributing to the implementation of frameworks that facilitated comprehensive pull request reviews without unnecessary time consumption.
     - Introduced novel solutions to address cross-domain problems, such as implementing a system that serialized and shipped backend permission rules to the frontend, enabling the client to check if specific actions can be envoked without first consulting the backend.
     - Focused mostly on the frontend of the product, gaining substantial hands-on experience with React, with lots of backend Python contributions as well.
   ]
-
+  
   #experience(
     entity: "Bluedrop ISM",
     entityLink: "https://bluedropism.com/",
@@ -84,23 +84,23 @@
     - Developed single-page web applications using React, migrated from class components to hooks.
     - Extensive unit and integration testing for both frontend and backend code.
   ]
-
+  
   #experience(
     entity: "Retrevium",
     entityLink: "https://retrievium.ca/",
     role: "Software Developer",
     tools: "PostgreSQL, Python, React, Remix, Chakra UI, Go, OpenStack",
-    when: "2019 - Present",
+    when: "2019 - 2022",
   )[
     - Designed and constructed a database designed for the storage and querying of 30+ million chemical molecules, as well as a frontend interface to ergonomically search through the data.
   ]
-
+  
   #experience(
     entity: "MUN Computer Science Society",
     entityLink: "https://muncompsci.ca/",
     role: "Executive",
     tools: "Astro, Tailwind, LaTeX, GitHub Actions",
-    when: "Oct 2017 – Present",
+    when: "Oct 2017 – Dec 2023",
   )[
     - Multiple executive roles throughout, from technical focused, to president
     - Rebuilt the #link("https://muncompsci.ca/")[society homepage] using #link("https://astro.build/")[Astro], and built a #link("https://github.com/MUNComputerScienceSociety/Executive-Docs")[repository] for storing all executive meeting notes as Markdown, and building them into PDFs via Pandoc automatically on change using continuous integration within GitHub.
@@ -112,14 +112,27 @@
   #hr
 
   #show par: set block(spacing: .75em)
-
+  
   *Memorial University of Newfoundland*
-
+  
   St. John's, Newfoundland, Canada
-
+  
   Bachelor of Science - Computer Science
+]
 
-  _2017 - Present_
+#let speakingSection = [
+  == Speaking
+  #hr
+
+  #show par: set block(spacing: .75em)
+
+  *#link("https://github.com/jackharrhy/beyond-the-browser")[Modern Serverside Web Dev]*
+
+  Talk given at #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-2023/")[DevFest 2023], as a sister talk to Why The Web, more focused on the backend: #link("https://github.com/jackharrhy/beyond-the-browser")[Slides]
+  
+  *#link("")[Why The Web]*
+
+  Talk given at #link("https://www.meetup.com/ndevmeetup/events/291338404/")[NDev 49] & #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-2022/")[DevFest 2022] on the current state of web development; frustrations, history, and better modern tools: #link("https://github.com/jackharrhy/why-the-web")[Slides]
 ]
 
 #let project(
@@ -182,17 +195,22 @@
     tools: "Kotlin, Javalin, SQLite"
   )[
     - A Bukkit plugin, where users can display the contents of chests within a Minecraft server on the web.
-    - Logic to serialize game data into a database, and visible via the web.
+    - Logic for serializing game data into a SQLite database, and then displaying it on the web.
   ]
 ]
 
 // --
 
+// content ideas
+// - cts
+// - talks: why the web gdg / ndev, technl github
+// - murphy center
+
 #grid(
   columns: (1fr, 2fr),
   gutter: 2em,
   [
-    #set text(1.2em)
+    #set text(1.5em)
     = Jack Harrhy
   ],
   [
@@ -212,6 +230,9 @@
 #grid(
   columns: (1fr, 2fr),
   gutter: 2em,
-  educationSection,
+  [
+    #educationSection
+    #speakingSection
+  ],
   projectsSection,
 )
