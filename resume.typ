@@ -90,7 +90,7 @@
     entityLink: "https://retrievium.ca/",
     role: "Software Developer",
     tools: "PostgreSQL, Python, React, Remix, Chakra UI, Go, OpenStack",
-    when: "2019 - 2022",
+    when: "2019 - Present",
   )[
     - Designed and constructed a database designed for the storage and querying of 30+ million chemical molecules, as well as a frontend interface to ergonomically search through the data.
   ]
