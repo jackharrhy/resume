@@ -1,6 +1,6 @@
 #set text(
   font: "Noto Sans",
-  size: 10pt
+  size: 10.3pt
 )
 #set page(
   paper: "a4",
@@ -48,16 +48,26 @@
   #hr
 
   #experience(
+    entity: "Spellbook",
+    entityLink: "https://spellbook.legal/",
+    role: "Software Developer",
+    tools: "React, TypeScript, MongoDB, LLMs (OpenAI/Anthropic), AWS",
+    when: "Dec 2024 - Present",
+  )[
+    - Utilizing Large Language Models to build ergonomic tools for transactional lawyers, predominantly interfacing with Microsoft Word / .docx files to meet our customers with the tools they already use.
+    - Ensure perforant and reusable React code, led adoption of React Compiler.
+    - Owning large features, from scoping, to development, to feature-flagged rollout.
+  ]
+
+  #experience(
     entity: "C-CORE",
     entityLink: "https://c-core.ca/",
     role: "Software Developer",
     tools: "React, TypeScript, Python, FastAPI, PostgreSQL, PostGIS, GCP",
-    when: "Jan 2022 - Present",
+    when: "Jan 2022 - Nov 2024",
   )[
     - Lead a small team on a greenfield TypeScript / Python project to consolidate multiple repositories into a unified monolithic codebase, reducing complexity and speeding up delivery.
-    - Successfully advocated for moving from Firestore to PostgreSQL, despite initial team reservations. This enabled advanced querying and addressed unexpected on-premise requirements.
     - Played a key role in task and workload management for both student and employee colleagues.
-    - Entered the role with limited geospatial development expertise but quickly closed the knowledge gap by enrolling in relevant courses. Eventually, became proficient enough to make contributions back to the open-source tools used by our software.
     - Truly 'full-stack', from creating the frontend Vite React app, to writing the backend FastAPI-based Python server with the SQLAlchemy ORM, deploying to GCP Cloud Run with Docker Containers.
   ]
   
@@ -68,8 +78,7 @@
     tools: "React, Python, SQLAlchemy, GraphQL",
     when: "May 2020 - Dec 2021",
   )[
-    - Advocated for a more efficient review process, contributing to the implementation of frameworks that facilitated comprehensive pull request reviews without unnecessary time consumption.
-    - Introduced novel solutions to address cross-domain problems, such as implementing a system that serialized and shipped backend permission rules to the frontend, enabling the client to check if specific actions can be envoked without first consulting the backend.
+    - Introduced novel solutions to address cross-domain problems, such as implementing a system that serialized and shipped backend permission rules to the frontend, enabling the client to check if specific actions can be evoked without first consulting the backend.
     - Focused mostly on the frontend of the product, gaining substantial hands-on experience with React, with lots of backend Python contributions as well.
   ]
   
@@ -103,7 +112,7 @@
     when: "Oct 2017 – Dec 2023",
   )[
     - Multiple executive roles throughout, from technical focused, to president
-    - Rebuilt the #link("https://muncompsci.ca/")[society homepage] using #link("https://astro.build/")[Astro], and built a #link("https://github.com/MUNComputerScienceSociety/Executive-Docs")[repository] for storing all executive meeting notes as Markdown, and building them into PDFs via Pandoc automatically on change using continuous integration within GitHub.
+    - Rebuilt the #link("https://muncompsci.ca/")[society homepage] using #link("https://astro.build/")[Astro], and built a #link("https://github.com/MUNComputerScienceSociety/Executive-Docs")[repository] for storing all executive meeting notes as Markdown, building them into PDFs via Pandoc automatically on change using continuous integration.
   ]
 ]
 
@@ -111,26 +120,22 @@
   == Education
   #hr
 
-  #show par: set block(spacing: .75em)
-  
   *Memorial University of Newfoundland*
   
   St. John's, Newfoundland, Canada
   
-  Bachelor of Science - Computer Science
+  Bachelor of Science - Computer Science (_Incomplete_)
 ]
 
 #let speakingSection = [
   == Speaking
   #hr
 
-  #show par: set block(spacing: .75em)
-
   *#link("https://github.com/jackharrhy/beyond-the-browser")[Modern Serverside Web Dev]*
 
   Talk given at #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-2023/")[DevFest 2023], as a sister talk to Why The Web, more focused on the backend: #link("https://github.com/jackharrhy/beyond-the-browser")[Slides]
   
-  *#link("")[Why The Web]*
+  *#link("https://github.com/jackharrhy/why-the-web")[Why The Web]*
 
   Talk given at #link("https://www.meetup.com/ndevmeetup/events/291338404/")[NDev 49] & #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-2022/")[DevFest 2022] on the current state of web development; frustrations, history, and better modern tools: #link("https://github.com/jackharrhy/why-the-web")[Slides]
 ]
