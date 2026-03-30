@@ -70,7 +70,7 @@
     - Played a key role in task and workload management for both student and employee colleagues.
     - Truly 'full-stack', from creating the frontend Vite React app, to writing the backend FastAPI-based Python server with the SQLAlchemy ORM, deploying to GCP Cloud Run with Docker Containers.
   ]
-  
+
   #experience(
     entity: "CoLab Software",
     entityLink: "https://www.colabsoftware.com/",
@@ -81,7 +81,7 @@
     - Introduced novel solutions to address cross-domain problems, such as implementing a system that serialized and shipped backend permission rules to the frontend, enabling the client to check if specific actions can be evoked without first consulting the backend.
     - Focused mostly on the frontend of the product, gaining substantial hands-on experience with React, with lots of backend Python contributions as well.
   ]
-  
+
   #experience(
     entity: "Bluedrop ISM",
     entityLink: "https://bluedropism.com/",
@@ -93,7 +93,7 @@
     - Developed single-page web applications using React, migrated from class components to hooks.
     - Extensive unit and integration testing for both frontend and backend code.
   ]
-  
+
   #experience(
     entity: "Retrevium",
     entityLink: "https://retrievium.ca/",
@@ -103,7 +103,7 @@
   )[
     - Designed and constructed a database designed for the storage and querying of 30+ million chemical molecules, as well as a frontend interface to ergonomically search through the data.
   ]
-  
+
   #experience(
     entity: "MUN Computer Science Society",
     entityLink: "https://muncompsci.ca/",
@@ -121,9 +121,9 @@
   #hr
 
   *Memorial University of Newfoundland*
-  
+
   St. John's, Newfoundland, Canada
-  
+
   Bachelor of Science - Computer Science (_Incomplete_)
 ]
 
@@ -131,13 +131,13 @@
   == Speaking
   #hr
 
+  *#link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-st-johns-2025/")[Building Reliable Agents with Elixir & OTP]*
+
+  Talk given at #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-st-johns-2025/")[DevFest 2025], about building agents, reliability needs, and how Elixir can help: #link("https://github.com/jackharrhy/agents-in-elixir-talk-w2025/blob/main/GDG%20St-John's%202025%20-%20Elixir%20Agent%20Talk.pdf")[Slides]
+
   *#link("https://github.com/jackharrhy/beyond-the-browser")[Modern Serverside Web Dev]*
 
-  Talk given at #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-2023/")[DevFest 2023], as a sister talk to Why The Web, more focused on the backend: #link("https://github.com/jackharrhy/beyond-the-browser")[Slides]
-  
-  *#link("https://github.com/jackharrhy/why-the-web")[Why The Web]*
-
-  Talk given at #link("https://www.meetup.com/ndevmeetup/events/291338404/")[NDev 49] & #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-2022/")[DevFest 2022] on the current state of web development; frustrations, history, and better modern tools: #link("https://github.com/jackharrhy/why-the-web")[Slides]
+  Talk given at #link("https://gdg.community.dev/events/details/google-gdg-st-johns-presents-devfest-2023/")[DevFest 2023], focused on the rise of backend frameworks: #link("https://github.com/jackharrhy/beyond-the-browser")[Slides]
 ]
 
 #let project(
@@ -167,26 +167,29 @@
   ]
 
   #project(
-    name: "yaMUN",
-    projectLink: "https://github.com/jackharrhy/yaMUN/",
-    desc: "Course listing and schedule creation tool",
-    tools: "TypeScript, Scraping"
+    name: "where the plow",
+    projectLink: "https://github.com/jackharrhy/where-the-plow/",
+    desc: "Newfoundland plow tracker",
+    tools: "Python, DuckDB, GIS"
   )[
-    - A user friendly alternative to my University's course selection site.
+    - A simple website for tracking plows / trucks across Newfoundland
+    - Started just St. John's, found more sources, and kept adding.
+    - Built quickly during a very snowy Feburary to catch the zeitgeist.
   ]
 
   #project(
-    name: "stickertrade",
-    projectLink: "https://github.com/fogo-sh/stickertrade",
-    desc: "Trading stickers",
-    tools: "Remix, TypeScript, Tailwind"
+    name: "siliconharbour.dev",
+    projectLink: "https://github.com/siliconharbour/siliconharbour.dev",
+    desc: "Local tech events & Info",
+    tools: "TypeScript, Tailwind"
   )[
-    - Ecommerce-esq site where users post stickers they have collected, and trade them for other users physical stickers, local to St. John's.
+    - An inventory of local events, companies, jobs, etc.
+    - Build to centralize information about local tech for discovertability.
   ]
 
   #project(
     name: "Advent of Code Solutions",
-    projectLink: "https://github.com/jackharrhy/advent2022",
+    projectLink: "https://github.com/jackharrhy/advent2025",
     desc: "Fun programming problems",
     tools: "Crystal, Elixir"
   )[
